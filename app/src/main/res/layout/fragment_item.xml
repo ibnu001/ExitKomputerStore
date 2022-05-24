@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iv_frItem_imageProduk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_personal_video_24" />
+
+        <TextView
+            android:id="@+id/tv_frItem_hargaProduk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="harga_produk"
+            app:layout_constraintEnd_toEndOf="@+id/tv_frItem_namaProduk"
+            app:layout_constraintStart_toStartOf="@+id/tv_frItem_namaProduk"
+            app:layout_constraintTop_toBottomOf="@+id/tv_frItem_namaProduk" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@+id/iv_frItem_imageProduk"
+            app:layout_constraintTop_toBottomOf="@+id/tv_frItem_totalHargaProduk">
+
+            <Button
+                android:id="@+id/btn_frItem_minus"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_minus" />
+
+            <TextView
+                android:id="@+id/tv_frItem_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_frItem_plus"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_plus" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_frItem_namaProduk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="nama_produk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_frItem_imageProduk"
+            app:layout_constraintTop_toTopOf="@+id/iv_frItem_imageProduk" />
+
+        <TextView
+            android:id="@+id/tv_frItem_deskripsiProduk"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:text="deskripsi_produk"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_frItem_imageProduk"
+            app:layout_constraintEnd_toEndOf="@+id/tv_frItem_hargaProduk"
+            app:layout_constraintStart_toStartOf="@+id/tv_frItem_hargaProduk"
+            app:layout_constraintTop_toBottomOf="@+id/tv_frItem_hargaProduk" />
+
+        <Button
+            android:id="@+id/btn_frItem_addCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="add cart"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+        <TextView
+            android:id="@+id/tv_frItem_totalHargaProduk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:text="total_harga_produk"
+            app:layout_constraintEnd_toEndOf="@+id/tv_frItem_deskripsiProduk"
+            app:layout_constraintStart_toStartOf="@+id/iv_frItem_imageProduk"
+            app:layout_constraintTop_toBottomOf="@+id/tv_frItem_deskripsiProduk" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
