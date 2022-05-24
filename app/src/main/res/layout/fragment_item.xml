@@ -42,11 +42,12 @@
             app:layout_constraintStart_toStartOf="@+id/iv_frItem_imageProduk"
             app:layout_constraintTop_toBottomOf="@+id/tv_frItem_totalHargaProduk">
 
-            <Button
+            <ImageButton
                 android:id="@+id/btn_frItem_minus"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/ic_minus" />
+                android:background="@drawable/ic_bg_plus_minus"
+                android:src="@drawable/ic_minus_svgrepo_com" />
 
             <TextView
                 android:id="@+id/tv_frItem_number"
@@ -56,11 +57,12 @@
                 android:text="0"
                 android:textSize="20sp" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/btn_frItem_plus"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/ic_plus" />
+                android:background="@drawable/ic_bg_plus_minus"
+                android:src="@drawable/ic_plus_svgrepo_com" />
         </LinearLayout>
 
         <TextView
@@ -102,7 +104,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
             android:layout_marginTop="8dp"
-            android:text="total_harga_produk_2"
             app:layout_constraintEnd_toEndOf="@+id/tv_frItem_deskripsiProduk"
             app:layout_constraintStart_toStartOf="@+id/iv_frItem_imageProduk"
             app:layout_constraintTop_toBottomOf="@+id/tv_frItem_deskripsiProduk" />

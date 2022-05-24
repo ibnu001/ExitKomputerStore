@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/drawable/ic_baseline_personal_video_24.xml" value="0.232" />
+        <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/drawable/ic_baseline_plus_one_24.xml" value="0.2425" />
+        <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/drawable/ic_bg_plus_minus.xml" value="0.2425" />
+        <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/drawable/ic_minus_svgrepo_com.xml" value="0.2425" />
+        <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/drawable/ic_plus.xml" value="0.2425" />
+        <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/drawable/ic_plus_svgrepo_com.xml" value="0.2425" />
         <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/layout/activity_item.xml" value="0.33" />
-        <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/layout/fragment_item.xml" value="0.75" />
+        <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/layout/fragment_item.xml" value="0.24191063174114022" />
         <entry key="..\:/Users/PC-06/AndroidStudioProjects/ExitKomputerStore/app/src/main/res/layout/number_picker_custom_layout.xml" value="0.3131578947368421" />
       </map>
     </option>
